@@ -7,7 +7,7 @@
 1589265903 c:\users\mungaihaha\desktop\exp\cwa\debug.h
 	"chunk.h"
 
-1589284100 c:\users\mungaihaha\desktop\exp\cwa\chunk.h
+1589287929 c:\users\mungaihaha\desktop\exp\cwa\chunk.h
 	"common.h"
 	"memory.h"
 	"value.h"
@@ -66,9 +66,10 @@
 	"common.h"
 	"value.h"
 
-1589273794 source:c:\users\mungaihaha\desktop\exp\cwa\compiler.c
+1589285521 source:c:\users\mungaihaha\desktop\exp\cwa\compiler.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
 	"common.h"
 	"compiler.h"
 	"scanner.h"
