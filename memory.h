@@ -1,6 +1,11 @@
 #ifndef MEMORY_H_INCLUDED
 #define MEMORY_H_INCLUDED
 
+#include "object.h"
+
+
+#define ALLOCATE(type, count) \
+    (type*)reallocate(NULL, 0, sizeof(type) * (count))
 
 #define GROW_CAPACITY(capacity) \
     ((capacity) < 8 ? 8 : (capacity) * 2)
@@ -13,7 +18,11 @@
 #define FREE_ARRAY(type, pointer, oldCount) \
     reallocate(pointer, sizeof(type) * (oldCount), 0)
 
+#define FREE(type, pointer) \
+    reallocate(pointer, sizeof(type), 0)
+
 void* reallocate(void* previous, size_t oldSize, size_t newSize);
+void freeObjects();
 
 
 #endif // MEMORY_H_INCLUDED
