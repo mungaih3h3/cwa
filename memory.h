@@ -1,7 +1,7 @@
 #ifndef MEMORY_H_INCLUDED
 #define MEMORY_H_INCLUDED
 
-#include "object.h"
+//#include "object.h"
 
 
 #define ALLOCATE(type, count) \
