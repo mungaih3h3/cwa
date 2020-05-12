@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1589267489 source:c:\users\mungaihaha\desktop\exp\cwa\debug.c
+1589267681 source:c:\users\mungaihaha\desktop\exp\cwa\debug.c
 	<stdio.h>
 	"debug.h"
 	"value.h"
@@ -7,19 +7,22 @@
 1589265903 c:\users\mungaihaha\desktop\exp\cwa\debug.h
 	"chunk.h"
 
-1589267594 c:\users\mungaihaha\desktop\exp\cwa\chunk.h
+1589270531 c:\users\mungaihaha\desktop\exp\cwa\chunk.h
 	"common.h"
 	"memory.h"
 	"value.h"
 
-1589267445 c:\users\mungaihaha\desktop\exp\cwa\common.h
+1589269827 c:\users\mungaihaha\desktop\exp\cwa\common.h
 	<stdbool.h>
 	<stddef.h>
 	<stdint.h>
 
 1589265768 c:\users\mungaihaha\desktop\exp\cwa\memory.h
 
-1589267506 source:c:\users\mungaihaha\desktop\exp\cwa\main.c
+1589267909 source:c:\users\mungaihaha\desktop\exp\cwa\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
 	"common.h"
 	"chunk.h"
 	"vm.h"
@@ -33,7 +36,7 @@
 	<stdlib.h>
 	"chunk.h"
 
-1589266394 c:\users\mungaihaha\desktop\exp\cwa\value.h
+1589270641 c:\users\mungaihaha\desktop\exp\cwa\value.h
 	"common.h"
 
 1589267225 source:c:\users\mungaihaha\desktop\exp\cwa\value.c
@@ -42,7 +45,15 @@
 	"value.h"
 	"debug.h"
 
-1589267324 c:\users\mungaihaha\desktop\exp\cwa\vm.h
+1589267937 c:\users\mungaihaha\desktop\exp\cwa\vm.h
 	"chunk.h"
 	"value.h"
+
+1589268705 source:c:\users\mungaihaha\desktop\exp\cwa\scanner.c
+	<stdio.h>
+	<string.h>
+	"common.h"
+	"scanner.h"
+
+1589268167 c:\users\mungaihaha\desktop\exp\cwa\scanner.h
 
