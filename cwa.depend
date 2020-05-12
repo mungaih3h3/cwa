@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1589284261 source:c:\users\mungaihaha\desktop\exp\cwa\debug.c
+1589288117 source:c:\users\mungaihaha\desktop\exp\cwa\debug.c
 	<stdio.h>
 	"debug.h"
 	"value.h"
@@ -100,7 +100,7 @@
 	"table.h"
 	"value.h"
 
-1589284118 source:c:\users\mungaihaha\desktop\exp\cwa\vm.c
+1589288008 source:c:\users\mungaihaha\desktop\exp\cwa\vm.c
 	"common.h"
 	"compiler.h"
 	"debug.h"
