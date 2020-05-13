@@ -1,13 +1,14 @@
 # depslib dependency file v1.0
-1589366895 source:c:\users\mungaihaha\desktop\exp\cwa\debug.c
+1589372988 source:c:\users\mungaihaha\desktop\exp\cwa\debug.c
 	<stdio.h>
 	"debug.h"
+	"object.h"
 	"value.h"
 
 1589265903 c:\users\mungaihaha\desktop\exp\cwa\debug.h
 	"chunk.h"
 
-1589366829 c:\users\mungaihaha\desktop\exp\cwa\chunk.h
+1589371392 c:\users\mungaihaha\desktop\exp\cwa\chunk.h
 	"common.h"
 	"memory.h"
 	"value.h"
@@ -61,7 +62,7 @@
 
 1589350039 c:\users\mungaihaha\desktop\exp\cwa\scanner.h
 
-1589366657 c:\users\mungaihaha\desktop\exp\cwa\object.h
+1589371822 c:\users\mungaihaha\desktop\exp\cwa\object.h
 	"common.h"
 	"chunk.h"
 	"value.h"
