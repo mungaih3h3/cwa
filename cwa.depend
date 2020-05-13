@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1589299303 source:c:\users\mungaihaha\desktop\exp\cwa\debug.c
+1589366895 source:c:\users\mungaihaha\desktop\exp\cwa\debug.c
 	<stdio.h>
 	"debug.h"
 	"value.h"
@@ -7,12 +7,12 @@
 1589265903 c:\users\mungaihaha\desktop\exp\cwa\debug.h
 	"chunk.h"
 
-1589298891 c:\users\mungaihaha\desktop\exp\cwa\chunk.h
+1589366829 c:\users\mungaihaha\desktop\exp\cwa\chunk.h
 	"common.h"
 	"memory.h"
 	"value.h"
 
-1589309525 c:\users\mungaihaha\desktop\exp\cwa\common.h
+1589367654 c:\users\mungaihaha\desktop\exp\cwa\common.h
 	<stdbool.h>
 	<stddef.h>
 	<stdint.h>
@@ -27,7 +27,7 @@
 	"chunk.h"
 	"vm.h"
 
-1589308110 source:c:\users\mungaihaha\desktop\exp\cwa\memory.c
+1589366565 source:c:\users\mungaihaha\desktop\exp\cwa\memory.c
 	<stdlib.h>
 	"common.h"
 	"memory.h"
@@ -48,7 +48,7 @@
 	"value.h"
 	"debug.h"
 
-1589295898 c:\users\mungaihaha\desktop\exp\cwa\vm.h
+1589367222 c:\users\mungaihaha\desktop\exp\cwa\vm.h
 	"object.h"
 	"table.h"
 	"value.h"
@@ -61,12 +61,12 @@
 
 1589350039 c:\users\mungaihaha\desktop\exp\cwa\scanner.h
 
-1589308177 c:\users\mungaihaha\desktop\exp\cwa\object.h
+1589366657 c:\users\mungaihaha\desktop\exp\cwa\object.h
 	"common.h"
 	"chunk.h"
 	"value.h"
 
-1589307649 source:c:\users\mungaihaha\desktop\exp\cwa\compiler.c
+1589366804 source:c:\users\mungaihaha\desktop\exp\cwa\compiler.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -83,7 +83,7 @@
 	"common.h"
 	"value.h"
 
-1589308146 source:c:\users\mungaihaha\desktop\exp\cwa\object.c
+1589366695 source:c:\users\mungaihaha\desktop\exp\cwa\object.c
 	<stdio.h>
 	<string.h>
 	"memory.h"
@@ -100,7 +100,7 @@
 	"table.h"
 	"value.h"
 
-1589353078 source:c:\users\mungaihaha\desktop\exp\cwa\vm.c
+1589367557 source:c:\users\mungaihaha\desktop\exp\cwa\vm.c
 	"common.h"
 	"compiler.h"
 	"debug.h"
