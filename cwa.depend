@@ -62,12 +62,12 @@
 
 1589350039 c:\users\mungaihaha\desktop\exp\cwa\scanner.h
 
-1589371822 c:\users\mungaihaha\desktop\exp\cwa\object.h
+1589373398 c:\users\mungaihaha\desktop\exp\cwa\object.h
 	"common.h"
 	"chunk.h"
 	"value.h"
 
-1589366804 source:c:\users\mungaihaha\desktop\exp\cwa\compiler.c
+1589373019 source:c:\users\mungaihaha\desktop\exp\cwa\compiler.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
