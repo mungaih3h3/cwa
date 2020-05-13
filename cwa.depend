@@ -8,17 +8,18 @@
 1589265903 c:\users\mungaihaha\desktop\exp\cwa\debug.h
 	"chunk.h"
 
-1589374369 c:\users\mungaihaha\desktop\exp\cwa\chunk.h
+1589379423 c:\users\mungaihaha\desktop\exp\cwa\chunk.h
 	"common.h"
 	"memory.h"
 	"value.h"
 
-1589367654 c:\users\mungaihaha\desktop\exp\cwa\common.h
+1589381907 c:\users\mungaihaha\desktop\exp\cwa\common.h
 	<stdbool.h>
 	<stddef.h>
 	<stdint.h>
 
-1589296383 c:\users\mungaihaha\desktop\exp\cwa\memory.h
+1589379463 c:\users\mungaihaha\desktop\exp\cwa\memory.h
+	"value.h"
 
 1589295632 source:c:\users\mungaihaha\desktop\exp\cwa\main.c
 	<stdio.h>
@@ -28,15 +29,19 @@
 	"chunk.h"
 	"vm.h"
 
-1589373553 source:c:\users\mungaihaha\desktop\exp\cwa\memory.c
+1589379487 source:c:\users\mungaihaha\desktop\exp\cwa\memory.c
 	<stdlib.h>
 	"common.h"
+	"compiler.h"
 	"memory.h"
 	"vm.h"
+	<stdio.h>
+	"debug.h"
 
-1589266750 source:c:\users\mungaihaha\desktop\exp\cwa\chunk.c
+1589379421 source:c:\users\mungaihaha\desktop\exp\cwa\chunk.c
 	<stdlib.h>
 	"chunk.h"
+	"vm.h"
 
 1589270948 c:\users\mungaihaha\desktop\exp\cwa\value.h
 	"common.h"
@@ -49,7 +54,7 @@
 	"value.h"
 	"debug.h"
 
-1589375519 c:\users\mungaihaha\desktop\exp\cwa\vm.h
+1589378164 c:\users\mungaihaha\desktop\exp\cwa\vm.h
 	"object.h"
 	"table.h"
 	"value.h"
@@ -60,31 +65,32 @@
 	"common.h"
 	"scanner.h"
 
-1589350039 c:\users\mungaihaha\desktop\exp\cwa\scanner.h
+1589380056 c:\users\mungaihaha\desktop\exp\cwa\scanner.h
 
-1589375281 c:\users\mungaihaha\desktop\exp\cwa\object.h
-	"common.h"
+1589379381 c:\users\mungaihaha\desktop\exp\cwa\object.h
 	"chunk.h"
+	"common.h"
 	"value.h"
 
-1589374338 source:c:\users\mungaihaha\desktop\exp\cwa\compiler.c
+1589377441 source:c:\users\mungaihaha\desktop\exp\cwa\compiler.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"common.h"
 	"compiler.h"
+	"memory.h"
 	"scanner.h"
 	"debug.h"
 
-1589296577 c:\users\mungaihaha\desktop\exp\cwa\compiler.h
+1589378844 c:\users\mungaihaha\desktop\exp\cwa\compiler.h
 	"object.h"
 	"vm.h"
 
-1589272295 c:\users\mungaihaha\desktop\exp\cwa\table.h
+1589378096 c:\users\mungaihaha\desktop\exp\cwa\table.h
 	"common.h"
 	"value.h"
 
-1589373518 source:c:\users\mungaihaha\desktop\exp\cwa\object.c
+1589381259 source:c:\users\mungaihaha\desktop\exp\cwa\object.c
 	<stdio.h>
 	<string.h>
 	"memory.h"
@@ -93,7 +99,7 @@
 	"value.h"
 	"vm.h"
 
-1589272311 source:c:\users\mungaihaha\desktop\exp\cwa\table.c
+1589378108 source:c:\users\mungaihaha\desktop\exp\cwa\table.c
 	<stdlib.h>
 	<string.h>
 	"memory.h"
@@ -101,7 +107,7 @@
 	"table.h"
 	"value.h"
 
-1589373871 source:c:\users\mungaihaha\desktop\exp\cwa\vm.c
+1589378506 source:c:\users\mungaihaha\desktop\exp\cwa\vm.c
 	"common.h"
 	"compiler.h"
 	"debug.h"

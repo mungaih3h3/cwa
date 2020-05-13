@@ -1,7 +1,11 @@
 #ifndef MEMORY_H_INCLUDED
 #define MEMORY_H_INCLUDED
 
+#include "value.h"
 //#include "object.h"
+
+
+
 
 
 #define ALLOCATE(type, count) \
@@ -22,6 +26,10 @@
     reallocate(pointer, sizeof(type), 0)
 
 void* reallocate(void* previous, size_t oldSize, size_t newSize);
+
+void markObject(Obj* object);
+void markValue(Value value);
+void collectGarbage();
 void freeObjects();
 
 
