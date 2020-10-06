@@ -137,6 +137,7 @@ static TokenType identifierType()
         }
       }
       break;
+    //case 'h': return checkKeyword(1, 3, "iki", TOKEN_THIS);
     case 'i': return checkKeyword(1, 1, "f", TOKEN_IF);
     //custom
     case 'j': return checkKeyword(1, 3, "ina", TOKEN_VAR);
@@ -163,10 +164,20 @@ static TokenType identifierType()
                         case 'e': return checkKeyword(3, 2, "li", TOKEN_TRUE);
                     }
                 }
+            case 'i':
+                if(scanner.current - scanner.start > 2)
+                {
+                    switch(scanner.start[2])
+                    {
+
+                        case 'w': return checkKeyword(3, 4, "anda", TOKEN_CLASS);
+                    }
+                }
+
             }
         }
     case 'l': return checkKeyword(1, 6, "asivyo", TOKEN_ELSE);
-
+    case 'm': return checkKeyword(1, 4, "zazi", TOKEN_SUPER);
     case 'n': return checkKeyword(1, 2, "il", TOKEN_NIL);
     case 'o': return checkKeyword(1, 1, "r", TOKEN_OR);
     case 'p': return checkKeyword(1, 4, "rint", TOKEN_PRINT);

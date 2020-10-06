@@ -423,6 +423,14 @@ static void super_(bool canAssign) {
   }
   consume(TOKEN_DOT, "Expect '.' after 'super'.");
   consume(TOKEN_IDENTIFIER, "Expect superclass method name.");
+  /*
+  if(memcmp(parser.previous.start, "mzazi", 5) == 0)
+  {
+      printf("herejra;kejr");
+      parser.previous.start = "super";
+      parser.previous.length = "5";
+  }
+  */
   uint8_t name = identifierConstant(&parser.previous);
 
   namedVariable(syntheticToken("this"), false);
@@ -719,12 +727,17 @@ static void function(FunctionType type) {
 
 static void method() {
   consume(TOKEN_IDENTIFIER, "Expect method name.");
+  if(memcmp(parser.previous.start, "kianzishi", 9) == 0)
+  {
+      parser.previous.start = "init";
+      parser.previous.length = 4;
+  }
   uint8_t constant = identifierConstant(&parser.previous);
 
   FunctionType type = TYPE_METHOD;
 
   if (parser.previous.length == 4 &&
-      memcmp(parser.previous.start, "init", 4) == 0) {
+      (memcmp(parser.previous.start, "init", 4) == 0))  {
     type = TYPE_INITIALIZER;
   }
   function(type);

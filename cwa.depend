@@ -59,7 +59,7 @@
 	"table.h"
 	"value.h"
 
-1589351198 source:c:\users\mungaihaha\desktop\exp\cwa\scanner.c
+1589434125 source:c:\users\mungaihaha\desktop\exp\cwa\scanner.c
 	<stdio.h>
 	<string.h>
 	"common.h"
@@ -73,7 +73,7 @@
 	"common.h"
 	"value.h"
 
-1589397917 source:c:\users\mungaihaha\desktop\exp\cwa\compiler.c
+1589437086 source:c:\users\mungaihaha\desktop\exp\cwa\compiler.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

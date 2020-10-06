@@ -31,9 +31,46 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="chunk.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="chunk.h" />
+		<Unit filename="common.h" />
+		<Unit filename="compiler.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="compiler.h" />
+		<Unit filename="debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="debug.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="memory.h" />
+		<Unit filename="object.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="object.h" />
+		<Unit filename="scanner.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scanner.h" />
+		<Unit filename="table.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="table.h" />
+		<Unit filename="value.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="value.h" />
+		<Unit filename="vm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vm.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
